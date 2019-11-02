@@ -1,0 +1,15 @@
+.Flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 100vh;
+    justify-content: space-between;
+}    
+
+@media screen and (max-width:341px){
+    .Flex{
+      justify-content: space-around;
+    }
+}
+

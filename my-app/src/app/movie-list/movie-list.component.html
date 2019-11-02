@@ -1,0 +1,7 @@
+
+<div class="Flex">
+ <div *ngFor="let movie of movies"
+ routerLink="/moviedetail/{{movie.id}}">
+        <img src={{poster_path}}{{movie.poster_path}} >
+ </div>
+</div>

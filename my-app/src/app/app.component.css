@@ -1,0 +1,11 @@
+.title{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.title:focus{
+    outline: 0 !important;
+    border:none !important;
+}
